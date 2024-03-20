@@ -1,5 +1,6 @@
 difference between document and window objects
  DOCUMENT:
+      It is the direct child of the window object
       The document object is the HTML document that appers in the browser window
       The browser generates a document object model of a web page upon loding it
       The document actulay gets loaded inside the window object
@@ -21,6 +22,7 @@ Syntax:
       document.create element(element)
       document.removechild(element)
 WINDOW OBJECTS:
+      It is the root level element in any web page
       It represens a browser windows or fram that displays the contents of the webpage 
       The window is the first thing that gets loaded into the browser
       The window is part of BOM , not a DOM 
