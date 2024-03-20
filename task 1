@@ -5,9 +5,15 @@ difference between document and window objects
       The document actulay gets loaded inside the window object
       The document is a part of BOM (browser object model) and DOM (document object model)
       properties of document objects such as title , body cookies, etc can also be assessed by a window document tittle
-      We can access the document from a window using the window.document 
-      To use the document object in the browser not a Notejs 
- Syntax:
+      We can access the document from a window using the window.document
+      Its another name called   simply document
+      To use the document object in the browser not a Notejs
+      document object represents the HTML document displayed in the browser window 
+      It Access to all the elements and content on the page, including text, images, links, and forms
+      document.getelementsbytagname(): Returns a collection of all the elements with the particular tag name
+      document.createElement(): to create the  new HTML element with the particular tag name
+      document.write(): to write a new  HTML content to the page
+Syntax:
      document.propertyname;
  Example:
       document.tittle : will return the tittle of the document
@@ -16,13 +22,18 @@ difference between document and window objects
       document.removechild(element)
 WINDOW OBJECTS:
       It represens a browser windows or fram that displays the contents of the webpage 
-      It  is the very first object that is loaded in the browser
       The window is the first thing that gets loaded into the browser
       The window is part of BOM , not a DOM 
+      It can be accessed from any script on the page.
       Properties of the window object cannot be accessed by the document object
       We can access the window from the window only (ie-window.window)
-      window is a globel objectand its a browser engine to work 
- Syntax:
+      The window object is the global object in a web browser
+      All the properties and methods that control the behavior of the browser
+      window object represents the browser window
+      The window object is automatically created when a new browser window is opened
+      window.location: Provides information about the current URL and allows you to navigate to a new URL
+      window. window.alert(): Display dialog box with a message to the user
+Syntax:
       window.propertyname;
  Example:
       window.innerheight:will return the height if the browser
